@@ -1,0 +1,381 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+        padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*                Header            */
+
+.header .container {
+    display: flex;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.page-nav a {
+padding: 24px 0;
+}
+
+.adressinfo {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
+
+.logoheader {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.logo-span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.page-nav .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #404BBF;
+}
+
+.address {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address:hover,
+.address:focus {
+    color: #404BBF;
+}
+
+.info {
+    font-style: normal;
+}
+
+
+
+/*             section-one          */
+
+.section-one {
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.section-one h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+button {
+    color: #FFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 auto;
+    height: 56px
+}
+
+button:hover,
+button:focus {
+    background-color: #404BBF;
+}
+
+
+
+/*            ssection-two            */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.section-two .container {
+    display: flex;
+        justify-content: center;
+}
+.section-two {
+padding: 120px 0;
+}
+
+.characteristic {
+max-width: 1128px;
+display: flex;
+gap: 24px;
+}
+
+.characteristic li {
+    width: calc((100% - 72px) / 4);
+}
+
+.section-two h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px ;
+}
+
+.section-two p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    max-width: 264px;
+}
+
+
+
+/*            ssection-tree           */
+
+.section-tree {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.members {
+    display: flex;
+     gap: 24px;
+    justify-content: center;
+}
+.members li {
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
+
+.chel {
+    background-color: #ffffff;
+}
+.containerworker{
+padding: 32px 0;
+}
+
+.section-tree h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.section-tree h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px
+}
+
+.section-tree p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+
+
+
+/*            ssection-four            */
+
+.section-four{
+    padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+        row-gap: 48px;
+}
+
+.app li {
+    width: calc((100% - 48px) / 3);
+}
+
+.containerapp {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.section-four h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.section-four h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.section-four .debilniytext_prilka {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+/*            footer          */
+
+
+.footer a {
+    display: inline-block;
+    margin-bottom: 16px
+}
+.footer p {
+    max-width: 264px;
+}
+
+.footer {
+    background-color: #2E2F42;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 100px 0;
+    
+}
+.logofooter {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-span-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
