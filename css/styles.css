@@ -278,14 +278,14 @@ gap: 24px;
 
 /*            ssection-tree           */
 
-.icons_media{
+.icons_media_spisok_element{
 margin: 0 auto;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 24px;
-    width: 232px;
-        height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .icons_media_spisok li {
