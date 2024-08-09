@@ -217,7 +217,10 @@ button:focus {
     border-radius: 4px;
     width: 264px;
     background-color: #f4f4fd;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
 }
 .icon {
     margin: 24px 100px;
