@@ -210,6 +210,19 @@ button:focus {
 
 /*            ssection-two            */
 
+.icons {
+    display: flex;
+    margin: o auto;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    background-color: #f4f4fd;
+    padding-bottom: 8px;
+}
+.icon {
+    margin: 24px 100px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
