@@ -421,10 +421,13 @@ padding: 32px 0;
 /*            footer          */
 
 
-.footer.container {
+.footer .container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+}
+.containerfooterone {
+margin-right: 120px;
+
 }
 
 .footer a {
@@ -433,7 +436,6 @@ padding: 32px 0;
 }
 .footer p {
     max-width: 264px;
-    
 }
 
 .footer {
@@ -467,6 +469,7 @@ padding: 32px 0;
 
 .containerfootertwo {
 display: flex;
+flex-direction: column;
 }
 
 .containerfootertwo p {
@@ -487,7 +490,6 @@ display: flex;
 .icons_footer_spisok_element {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ssilka_footer {
@@ -498,6 +500,7 @@ display: flex;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ssilka_footer:hover {
